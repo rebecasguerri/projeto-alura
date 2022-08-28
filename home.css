@@ -8,8 +8,7 @@
 /*FONT*/
 @font-face {
     font-family: "inter" ;
-    src: url("fonte/Inter\ Variable/");  
-    format('opentype');
+    src: url("fonte/Inter-Desktop/Inter-Medium.otf") format("opentype")
 }
 
 
@@ -36,16 +35,41 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   width: 50vw;
+   width: 65vw;
    margin: auto;
    padding-top: 2rem;
    text-transform: uppercase;
+   font-family: "inter" ;
+}
+.navegation-header ul li a{
+    color: rgba(222, 238, 252, 0.839);
+}
+.navegation-header ul li a:hover{
+    color: rgba(255, 255, 255, 0.357);
+}
+#form{
+    border: 1px solid rgba(255, 255, 255, 0.357);
+    padding: 1rem  2rem;
+    display: flex;
+    align-items: center;
+    border-radius:0.2rem ;
+    justify-content: space-between;
+    width: 20vw;
+}
+#search{
+    border: none;
+    background-color: transparent;
+}
+#btn-lupa{
+    background-color: transparent;
+    border: none;
 }
 .infos{
     display: flex;
     gap: 2rem;
     list-style-type: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    align-items: center;
 }
 .infos li a{
     color: white;
@@ -56,17 +80,19 @@
     gap: 2rem;
     list-style-type: none;
     color: white;
+    align-items: center;
 }
 .btns-header li a{
     color: white;
     text-decoration: none;
 }
 #btn-login{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 #btn-register{
     color: black;
     background-color: hsl(138, 100%, 82%);
     border-radius: 2rem;
     padding: 0.9rem 2rem;
+    font-size: 0.9rem;
 }
