@@ -95,10 +95,10 @@
     color: black;
     background-color: hsl(138, 100%, 82%);
     border-radius: 2rem;
-    padding: 0.9rem 2rem;
+    padding: 1rem 3rem;
     font-size: 0.9rem;
 }
 #btn-register:hover{
-    padding:1rem 2rem;
-    transition-duration: 0.1s;
+    padding:1.3rem 3.2rem;
+   transition-duration: 0.5s;
 }
