@@ -70,7 +70,7 @@
     display: flex;
     gap: 2rem;
     list-style-type: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     align-items: center;
 }
 .infos li a{
@@ -89,7 +89,7 @@
     text-decoration: none;
 }
 #btn-login{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 #btn-register{
     color: black;
