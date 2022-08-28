@@ -4,7 +4,9 @@
     margin: 0;
 }
 
-
+body{
+    font-family: "inter" ;
+}
 /*FONT*/
 @font-face {
     font-family: "inter" ;
@@ -101,4 +103,29 @@
 #btn-register:hover{
     padding:1.3rem 3.2rem;
    transition-duration: 0.5s;
+}
+.home-header{
+    width: 65vw;
+    margin: auto;
+}
+.txt-header{
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.txt-header h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.txt-header p{
+    width: 70%;
+}
+.header-backgound{
+    padding: 3rem 0;
+    background-image: url(imagens/ilustrações-de-background/ilustra-alura-escafandro.1647533643.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:auto;
 }
