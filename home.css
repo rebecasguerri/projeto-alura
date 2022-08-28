@@ -55,6 +55,7 @@
     border-radius:0.2rem ;
     justify-content: space-between;
     width: 20vw;
+    
 }
 #search{
     border: none;
@@ -63,6 +64,7 @@
 #btn-lupa{
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 .infos{
     display: flex;
@@ -95,4 +97,8 @@
     border-radius: 2rem;
     padding: 0.9rem 2rem;
     font-size: 0.9rem;
+}
+#btn-register:hover{
+    padding:1rem 2rem;
+    transition-duration: 0.1s;
 }
