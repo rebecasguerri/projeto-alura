@@ -139,6 +139,7 @@ body{
 .contain-elements a{
     text-decoration: none;
 }
+
 .second{
     margin-top: 0.5rem;
 }
@@ -149,10 +150,12 @@ body{
     padding: 1rem;
     border-radius: 0.5rem;
     height: 13rem;
+    transform: translateY(0);
+    transition-duration: 0.5s;
 }
 .div-contain:hover{
-    border: 1px solid hsl(213, 83%, 35%);
     border: 1px solid hsl(213, 72%, 65%); 
+    transform: translateY(10px);
 }
 .div-contain p{
     font-size: 0.8rem;
