@@ -123,9 +123,73 @@ body{
     width: 70%;
 }
 .header-backgound{
-    padding: 3rem 0;
+    padding: 2rem 0;
     background-image: url(imagens/ilustrações-de-background/ilustra-alura-escafandro.1647533643.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
     background-size:auto;
+    margin-top: 4rem;
+}
+
+.contain-elements{
+    display: flex;
+    width: 70vw;
+    gap: 2rem; 
+}
+.contain-elements a{
+    text-decoration: none;
+}
+.second{
+    margin-top: 0.5rem;
+}
+.div-contain{
+    width: 10vw;
+    background-color: hsl(214, 82%, 11%);
+    border: 1px solid hsl(213, 83%, 35%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 13rem;
+}
+.div-contain:hover{
+    border: 1px solid hsl(213, 83%, 35%);
+    border: 1px solid hsl(213, 72%, 65%); 
+}
+.div-contain p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.77);
+}
+.div-contain p:hover{
+    text-decoration: underline;   
+}
+.categories-link-text{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.title-content {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+.color1{
+    color:hsl(154, 100%, 38%) ;
+}
+.color2{
+    color:hsl(199, 93%, 69%);
+}
+.color3{
+    color:hsl(85, 51%, 47%);
+}
+.color4{
+    color:hsl(358, 83%, 66%) ;
+}
+.color5{
+    color:hsl(310, 34%, 53%) ;
+}
+.color6{
+    color:hsl(43, 97%, 51%);
+}
+
+.color7{
+    color:hsl(27, 99%, 58%);
 }
