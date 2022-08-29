@@ -1,0 +1,17 @@
+hsl(138, 100%, 82%)-green button 
+hsl(214, 82%, 11%) blue ocean
+hsl(154, 100%, 38%) programação
+hsl(199, 93%, 69%) frontend
+hsl(85, 51%, 47%) data science
+hsl(358, 83%, 66%) devops
+hsl(310, 34%, 53% ux design
+hsl(43, 97%, 51%) mobile
+hsl(27, 99%, 58%) inovação e gestão
+hsl(210, 91%, 40%) linked
+hsl(203, 89%, 53%) twitter
+hsl(213, 85%, 13%) box depoimentos
+hsl(263, 100%, 71%) roxo alura cases seção
+hsl(213, 93%, 53%) azul onde baixar
+hsl(213, 85%, 8%) azul forte
+hsl(213, 84%, 13%) azul intemediario
+hsl(213, 84%, 22%) azul claro
