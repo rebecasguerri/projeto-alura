@@ -114,13 +114,14 @@ body{
     margin-bottom: 2rem;
 }
 .txt-header h1{
-    font-size: 3rem;
+    font-size: 3.3rem;
     text-transform: capitalize;
-    width: 50%;
+    width: 60%;
     margin-bottom: 2rem;
 }
-.txt-header p{
+.txt-header p {
     width: 70%;
+    color: #ffffffa3;
 }
 .header-backgound{
     padding: 2rem 0;
@@ -129,12 +130,13 @@ body{
     background-position: top right;
     background-size:auto;
     margin-top: 4rem;
+    z-index: 5;
 }
 
 .contain-elements{
     display: flex;
     width: 70vw;
-    gap: 2rem; 
+    gap: 1rem; 
 }
 .contain-elements a{
     text-decoration: none;
@@ -152,6 +154,11 @@ body{
     height: 13rem;
     transform: translateY(0);
     transition-duration: 0.5s;
+    z-index: 3;
+}
+.flex-small-view{
+    position: relative;
+    z-index: 5;
 }
 .div-contain:hover{
     border: 1px solid hsl(213, 72%, 65%); 
@@ -195,4 +202,16 @@ body{
 
 .color7{
     color:hsl(27, 99%, 58%);
+}
+
+
+#linha-transversal::after {
+    content: '';
+    width: 100%;
+    height: 13em;
+    position: absolute;
+    bottom: 2em;
+    background: #fff;
+    -webkit-transform: skewY(-6deg);
+    transform: skewY(-2deg);
 }
