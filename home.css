@@ -214,7 +214,7 @@ body{
     width: 100%;
     height: 13em;
     position: absolute;
-    bottom: -4em;
+    bottom: -8em;
     background: #fff;
     -webkit-transform: skewY(-6deg);
     transform: skewY(-2deg);
@@ -228,6 +228,18 @@ body{
     .home-header{
         width: 72rem;
     }
+    .video-section {
+        gap: 2rem;
+        justify-content: center;
+        margin: 25px auto 130px;
+        padding-top: 5rem;
+    }
+    #linha-transversal::after {
+        bottom: -6em;
+    }
+    
+  
+    
  }
  @media (max-width: 1280px){
     .navegation-header{
@@ -245,8 +257,23 @@ body{
     .txt-header h1 {
         font-size: 3rem;
     }
+    #linha-transversal::after {
+        bottom: -6em;
+    }
+    .video-section {
+        gap: 2rem;
+        justify-content: center;
+        margin: 25px auto 130px;
+        padding-top: 5rem;
+    }
+    
   
  
+}
+@media (max-width: 1000px){
+    #linha-transversal::after {
+        bottom: -9em;
+    }
 }
 @media (max-width: 1100px){
     .navegation-header{
@@ -285,6 +312,16 @@ body{
         margin: 0;
         margin-right: 0.5rem;
     }
+    #linha-transversal::after {
+        bottom: -13em;
+    }
+    
+}
+
+@media (max-width: 620px){
+    #linha-transversal::after {
+        bottom: -6em;
+    }
 }
 @media (max-width: 620px){
     .txt-header {
@@ -302,16 +339,7 @@ body{
     .header-backgound{
         background-image: none;
     }
-    #linha-transversal::after {
-        content: '';
-        width: 100%;
-        height: 13em;
-        position: absolute;
-        bottom: -4em;
-        background: #fff;
-        -webkit-transform: skewY(-6deg);
-        transform: skewY(-2deg);
-    }
+  
     .navegation-header img{
         order: -1;
     }
@@ -349,7 +377,13 @@ body{
         font-size: 0.7rem;
     }
    
+   
 
+ }
+ @media (max-width: 520px){
+    #linha-transversal::after {
+        bottom: -5em;
+    }
  }
  @media (max-width: 520px){
     #form {
@@ -473,19 +507,18 @@ body{
     background-image: url(imagens/ilustrações-de-background/ilustra-bussola.1647533643.png);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;   
+    background-size: auto; 
 }
 @media (max-width: 1280px){
     .video-section {
-        gap: 2rem;  
+        gap: 2rem;
+        justify-content: center;
     }
     .text-video {
-        width: auto;
+        width: 40%;
     }
     .section-01 {
         width: 95vw;
-        margin: 10rem 0 0 0;
     }
     .text-video h3 {
         font-size: 2.3rem;
@@ -500,5 +533,70 @@ body{
     }
 }
 @media (min-width: 1100px){
+    .video-section iframe{
+        width: 500px;
+    
+    }
+    .video-section {
+        gap: 2rem;
+        justify-content: center;
+        margin: 0px auto 130px;
+    }
+}
+@media (max-width: 920px){
+    .video-section {
+        flex-direction: column;
+        margin: 0px auto 130px;
+    }
+    .text-video {
+        width: 70%;
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video-section iframe{
+        width: 642px;
+        height: 500px;
+    }
+    .categorias-oceano {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+@media (max-width: 670px){
+    .video-section iframe{
+     width: 521px;
+     height: 321px;
+    }
+}
+@media (max-width: 570px){
+    .video-section iframe{
+     width: 420px;
+     height: 300px;
+    }
+    .text-video h3 {
+        font-size: 2.0rem;
+        margin-bottom: 1rem;
+        
+    }
+    .text-video p {
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+}
 
+@media (max-width: 444px){
+    .video-section iframe {
+        width: 350px;
+        height: 230px;
+    }
+    .btn-howWork {
+        padding: 1.3rem 2rem;
+        width: 294px;
+    }
+    .section-01 {
+        width: 95vw;
+        position: relative;
+    }
 }
