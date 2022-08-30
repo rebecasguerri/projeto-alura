@@ -447,10 +447,9 @@ body{
 
  /*MAIN*/
  .section-01{
-    margin-top: 10rem;
     width: 72rem;
-    margin: 10rem auto 0;
- }
+    margin: 10rem auto 5rem;
+}
  .video-section{
     display: flex;
     align-items: center;
@@ -602,19 +601,18 @@ body{
 }
 
 
+
 .section-02-courses-sequence{
-     background-image:url(imagens/luz-roxa-luz-topo-mask.1647533643.png);
-     background-repeat: no-repeat;
-     background-position: cover;
+    background-image: url(imagens/luz-roxa-luz-topo-mask.1647533643.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .content-align{
-    width: 75rem;
-    margin:  auto;
-    
-}
-.boxes-courses{
-    display: flex;
+    width: 72rem;
+    margin: 0 auto;
 }
 .text-courses-sequence{
+    color: white;
     width: 50%;
 }
