@@ -57,6 +57,9 @@ body{
 .navegation-header ul li a:hover{
     color: rgba(255, 255, 255, 0.593);
 }
+#search-img{
+    display: none;
+}
 #form{
     border: 1px solid rgba(255, 255, 255, 0.357);
     padding: 0.9rem  1.5rem;
@@ -280,6 +283,7 @@ body{
     .second{
         order: -1;
         margin: 0;
+        margin-right: 0.5rem;
     }
 }
 @media (max-width: 620px){
@@ -320,9 +324,22 @@ body{
        border-right: none;
     }
     #form {
-        width: 35%;
-        border: none;
-        order: -1;
+       display: none;
+       border: none;
+       width: 100%;
+    }
+    #form.active{
+        display: flex;
+    }
+    #search-img{
+        display: block;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 0.3rem;
+    }
+    #btn-lupa {
+        position: relative;
+        left: 0rem;
     }
     .btns-header {
         order: -1;
@@ -331,7 +348,65 @@ body{
         padding: 1rem 2rem;
         font-size: 0.7rem;
     }
+   
 
-
-
+ }
+ @media (max-width: 520px){
+    #form {
+        width: 100%;
+        justify-content: center;
+    }
+    #btn-lupa {
+        position: relative;
+        left: 0rem;
+    }
+ }
+ @media (max-width: 413px){
+    .second{
+        margin-right: 0.5rem;
+    }
+    .title-content{
+        font-size: 0.8rem;
+    }
+    .div-contain {
+        height: auto;
+        margin: 0;
+        width: 11rem;
+    }
+    .txt-header h1 {
+        font-size: 1.5rem;
+    }
+   
+ }
+ @media (max-width: 417px){
+    #logo-img {
+        width: 17%;
+    }
+    .navegation-header {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    #search-img{
+     padding: 0.5rem;
+    }
+    .div-contain {
+        width: 9rem;
+    }
+    .infos{
+        margin-top: 0.5rem;
+    }
+    #btn-register {
+        padding: 0.7rem 1rem;
+    }
+ 
+  
+ }
+ @media (max-width: 353px){
+    .navegation-header {
+        justify-content: center;
+        gap: 0.9rem;
+    }
+    .btns-header{
+        gap: 1rem;
+    }
  }
