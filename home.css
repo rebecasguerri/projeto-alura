@@ -600,3 +600,21 @@ body{
         position: relative;
     }
 }
+
+
+.section-02-courses-sequence{
+     background-image:url(imagens/luz-roxa-luz-topo-mask.1647533643.png);
+     background-repeat: no-repeat;
+     background-position: cover;
+}
+.content-align{
+    width: 75rem;
+    margin:  auto;
+    
+}
+.boxes-courses{
+    display: flex;
+}
+.text-courses-sequence{
+    width: 50%;
+}
