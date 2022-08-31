@@ -219,7 +219,12 @@ body{
     -webkit-transform: skewY(-6deg);
     transform: skewY(-2deg);
 }
-@media (min-width:1800px){
+@media (min-width:1900px){
+    .linha-transversal::after {
+        bottom: 4em;
+    }
+}
+@media (max-width:1800px){
     .linha-transversal::after {
         bottom: -4em;
     }
@@ -633,7 +638,7 @@ body{
     background-position: center;
     background-size: cover;
 }
-.content-align{
+.content-align {
     width: 72rem;
     margin: 0 auto;
     padding: 5rem 0;
@@ -663,11 +668,11 @@ body{
     align-items: center; 
     gap: 4rem;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
 }
 .second2{
  margin-top: 5rem;
- position: relative;
- z-index: 5;
 }
 .content-list{
     list-style-type: none;
