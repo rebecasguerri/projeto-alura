@@ -611,8 +611,39 @@ body{
 .content-align{
     width: 72rem;
     margin: 0 auto;
+    padding: 5rem 0;
 }
-.text-courses-sequence{
+.text-courses-sequence {
     color: white;
     width: 50%;
+    margin-bottom: 5rem;
+}
+.text-courses-sequence h2{
+    width: 33rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.text-courses-sequence p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.829);
+}
+.boxes-courses{
+    display: flex;
+    flex-direction: row;  
+}
+.content-list{
+    list-style-type: none;
+}
+.courses-content{
+    width: 18rem;
+}
+.content-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+.content-list li a:hover{
+     text-decoration: underline;
 }
