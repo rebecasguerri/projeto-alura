@@ -219,7 +219,12 @@ body{
     -webkit-transform: skewY(-6deg);
     transform: skewY(-2deg);
 }
-
+@media (min-width:1800px){
+    #linha-transversal::after {
+        bottom: -4em;
+    }
+    
+}
 @media (min-width: 1280px){
     .navegation-header{
         width: 72rem;     
@@ -234,9 +239,7 @@ body{
         margin: 25px auto 130px;
         padding-top: 5rem;
     }
-    #linha-transversal::after {
-        bottom: -6em;
-    }
+   
     
   
     
@@ -257,9 +260,7 @@ body{
     .txt-header h1 {
         font-size: 3rem;
     }
-    #linha-transversal::after {
-        bottom: -6em;
-    }
+  
     .video-section {
         gap: 2rem;
         justify-content: center;
@@ -599,6 +600,16 @@ body{
         position: relative;
     }
 }
+@media (max-width:390px){
+    .text-video {
+        width: 90%;
+    }
+    .video-section iframe{
+        width: 300px;
+        height: 300px;
+       }
+
+}
 
 
 
@@ -636,19 +647,25 @@ body{
     display: flex;
     flex-direction: row; 
     align-items: center; 
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.second2{
+ margin-top: 5rem;
 }
 .content-list{
     list-style-type: none;
 }
 .courses-content{
-    width: 18rem;
+    width: 16rem;
     line-height: 1.5rem;
 }
 .content-list li a{
     color: white;
     text-decoration: none;
     font-size: 0.9rem;
-    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.798);
 }
 .content-list li a:hover{
      text-decoration: underline;
@@ -657,4 +674,136 @@ body{
     color: whitesmoke;
     font-weight:  400;
     font-size: 0.8rem;
+}
+
+.background-ilustracion-courses-sequense{
+    background-image: url(imagens/ilustrações-de-background/ilustracao-02.1647533643.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+@media (max-width: 1280px){
+    .background-ilustracion-courses-sequense{
+        background-repeat: no-repeat;
+        background-position: 72% 0%;
+        background-size: 20%;
+        position: relative;
+    }
+    .content-align {
+        width: 95vw;
+        margin: 0 auto;
+        padding: 5rem 0;
+    }
+}
+@media (max-width:990px){
+    .background-ilustracion-courses-sequense{
+        background-repeat: no-repeat;
+        background-position: 80% 0%;
+        background-size: 20%;
+        position: relative;
+    }
+    .courses-content {
+        width: 13rem;
+        line-height: 1.5rem;
+    }
+}
+@media (max-width:890px){
+    .background-ilustracion-courses-sequense{
+        background-repeat: no-repeat;
+        background-position: 86% 0%;
+        background-size: 20%;
+        position: relative;
+    }
+    .text-courses-sequence h2 {
+        width: 33rem;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+    .text-courses-sequence p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .boxes-courses {
+        display: flex;
+        flex-direction:row;
+        align-items: baseline;
+        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+@media (max-width:790px){
+    .background-ilustracion-courses-sequense{
+        background-repeat: no-repeat;
+        background-position: 86% 0%;
+        background-size: 30%;
+        position: relative;
+    }
+    .courses-content {
+        width: 30%;
+        line-height: 1.5rem;
+    }
+    .text-courses-sequence h2 {
+        width: 23rem;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+    
+}
+@media (max-width:590px){
+    .background-ilustracion-courses-sequense {
+        background-repeat: no-repeat;
+        background-position: 99% 0%;
+        background-size: 35%;
+        position: relative;
+    }
+    .text-courses-sequence p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.829);
+        width: 23rem;
+    }
+    .text-courses-sequence {
+        color: white;
+        width: 95%;
+    }
+
+}
+@media (max-width:490px){
+    .background-ilustracion-courses-sequense {
+        background-position: 100% -2%;
+        background-size: 50%;
+    }
+   
+    .text-courses-sequence h2 {
+        width: 21rem;
+        font-size: 2rem;
+    }
+    .text-courses-sequence p {
+        font-size: 1.1rem;
+        width: 23rem;
+    }
+    .boxes-courses {
+        flex-direction:column;
+    }
+    .courses-content {
+        width: 50%;
+    }
+   
+}
+@media (max-width:390px){
+    .text-courses-sequence p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .background-ilustracion-courses-sequense {
+        background-position: 121% -2%;
+        background-size: 59%;
+    }
+    .text-courses-sequence h2 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
 }
