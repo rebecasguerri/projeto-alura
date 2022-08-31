@@ -613,6 +613,10 @@ body{
     margin: 0 auto;
     padding: 5rem 0;
 }
+.text-courses-sequence span{
+    font-family: 'Courier New';
+    margin-bottom: 1.5rem;
+}
 .text-courses-sequence {
     color: white;
     width: 50%;
@@ -630,13 +634,15 @@ body{
 }
 .boxes-courses{
     display: flex;
-    flex-direction: row;  
+    flex-direction: row; 
+    align-items: center; 
 }
 .content-list{
     list-style-type: none;
 }
 .courses-content{
     width: 18rem;
+    line-height: 1.5rem;
 }
 .content-list li a{
     color: white;
@@ -646,4 +652,9 @@ body{
 }
 .content-list li a:hover{
      text-decoration: underline;
+}
+.courses-content span a{
+    color: whitesmoke;
+    font-weight:  400;
+    font-size: 0.8rem;
 }
