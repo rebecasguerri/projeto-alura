@@ -864,10 +864,11 @@ body{
 .text-article-depoimentos p {
     color: hsl(214deg 82% 11% / 69%);
 }
-.background-ilustracion-maior-escola-secao{
-   background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
-   background-repeat: no-repeat;
-   background-position: 22% 60%;
+.background-ilustracion-maior-escola-secao {
+    background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 95%;
+    background-size: 100%;
 }
 
 .icon-quote-background {
