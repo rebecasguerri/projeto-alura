@@ -861,8 +861,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: hsl(213, 84%, 22%);
 }
-.text-article-depoimentos p{
-    color: hsl(214, 82%, 11%);
+.text-article-depoimentos p {
+    color: hsl(214deg 82% 11% / 69%);
 }
 .background-ilustracion-maior-escola-secao{
    background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
@@ -870,11 +870,15 @@ body{
    background-position: 22% 60%;
 }
 
-.icon-quote-background{
+.icon-quote-background {
     background-image: url(imagens/icon-quote-darker.1647533643.svg);
-    background-repeat: repeat;
-    background-position:center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 94%;
+    background-position: 0% 100%;
+    position: relative;
+    left: 36rem;
+    width: 5vw;
+    height: 22vh;
 }
 .content-depoimentos{
     list-style-type: none;
@@ -890,6 +894,9 @@ body{
     border: 2px solid hsl(203, 89%, 53%);
     position: absolute;
     right: 49%;
+}
+.segunda{
+    right: 46%;
 }
 .article-depointes {
     box-shadow: 0px 26px 34px rgb(0 0 0 / 10%);
@@ -909,16 +916,25 @@ body{
     line-height: 4rem;
     color: #093366;
     font-family: "inter" ;
+    padding-left: 2rem;
 }
 #content-depointe-primeiro {
     width: 37rem;
     margin-bottom: 3rem;
 }
 #content-depointe-segundo{
-    width: 27rem;
+    width: 29rem;
+    margin-left: 3rem;
 }
 .span-bold{
     color: #051e3d;
    font-weight: 600;
    font-family: "inter" ;
+}
+
+@media (max-width:1280px){
+    .background-ilustracion-maior-escola-secao {
+        background-position: 23% 99%;
+        background-size: 93%;
+    }
 }
