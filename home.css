@@ -878,7 +878,6 @@ body{
 }
 .content-depoimentos{
     list-style-type: none;
-    margin-top: 3rem;
 }
 .content-depoimentos {
     list-style-type: none;
@@ -887,9 +886,10 @@ body{
 .img-depointe {
     display: block;
     border-radius: 50%;
-    width: 3rem;
+    width: 4rem;
     border: 2px solid hsl(203, 89%, 53%);
     position: absolute;
+    right: 49%;
 }
 .article-depointes {
     box-shadow: 0px 26px 34px rgb(0 0 0 / 10%);
@@ -900,6 +900,10 @@ body{
    font-family: sans-serif;
    line-height: 1.4rem;
    position: relative;
+   bottom: 2rem;
+}
+.article-depointes p{
+    padding-left: 2rem;
 }
 .depointe-name {
     line-height: 4rem;
