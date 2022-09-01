@@ -841,12 +841,13 @@ body{
 
 
 
-.depoimentos-texto{
+.depoimentos-texto {
     width: 72rem;
     margin: 5rem auto;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    color: hsl(213, 84%, 22%);
 }
 .text-article-depoimentos {
     height: 100vh;
@@ -854,38 +855,66 @@ body{
 }
 .text-article-depoimentos h3{
     font-size: 3rem;
+    color: hsl(213, 84%, 22%);
+}
+.text-article-depoimentos span{
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(213, 84%, 22%);
+}
+.text-article-depoimentos p{
+    color: hsl(214, 82%, 11%);
 }
 .background-ilustracion-maior-escola-secao{
    background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
    background-repeat: no-repeat;
    background-position: 22% 60%;
 }
+
+.icon-quote-background{
+    background-image: url(imagens/icon-quote-darker.1647533643.svg);
+    background-repeat: repeat;
+    background-position:center;
+    background-size: cover;
+}
 .content-depoimentos{
     list-style-type: none;
+    margin-top: 3rem;
 }
-.content-depointe{
-    display: flex;
+.content-depoimentos {
+    list-style-type: none;
+    margin-top: 16rem;
 }
 .img-depointe {
     display: block;
     border-radius: 50%;
     width: 3rem;
     border: 2px solid hsl(203, 89%, 53%);
+    position: absolute;
 }
 .article-depointes {
     box-shadow: 0px 26px 34px rgb(0 0 0 / 10%);
     border-radius: 0.5rem;
     border: 1px solid #1961bc30;
     padding: 2rem;
-    color: rgba(0, 0, 0, 0.671);
+   color: hsla(213, 88%, 10%, 0.863);
+   font-family: sans-serif;
+   line-height: 1.4rem;
+   position: relative;
 }
-.article-depointes span {
+.depointe-name {
     line-height: 4rem;
-    color: black;
+    color: #093366;
+    font-family: "inter" ;
 }
 #content-depointe-primeiro {
-    width: 39rem;
+    width: 37rem;
+    margin-bottom: 3rem;
 }
 #content-depointe-segundo{
-    width: 29rem;
+    width: 27rem;
+}
+.span-bold{
+    color: #051e3d;
+   font-weight: 600;
+   font-family: "inter" ;
 }
