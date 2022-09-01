@@ -938,4 +938,12 @@ body{
         background-position: 23% 99%;
         background-size: 93%;
     }
+    .depoimentos-texto {
+        width: 72rem;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: hsl(213, 84%, 22%);
+    }
 }
