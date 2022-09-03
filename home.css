@@ -983,3 +983,20 @@ body{
         right: 37%;
     }
 }
+@media (max-width:1112px){
+    .depoimentos-texto {
+        width: 90vw;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-depoimentos {
+        list-style-type: none;
+        margin-top: 0rem;
+    }
+    .text-article-depoimentos {
+        height: auto;
+        width: 95vw;
+    }
+}
