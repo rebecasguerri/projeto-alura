@@ -973,5 +973,13 @@ body{
     }
 }
 @media (max-width:1180px){
-  
+    .text-article-depoimentos h3 {
+        font-size: 2.5rem;
+    }
+    .img-depointe {
+        right: 42%;
+    }
+    .segunda {
+        right: 37%;
+    }
 }
