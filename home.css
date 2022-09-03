@@ -935,15 +935,43 @@ body{
 
 @media (max-width:1280px){
     .background-ilustracion-maior-escola-secao {
-        background-position: 23% 99%;
-        background-size: 93%;
+        background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
+        background-repeat: no-repeat;
+        background-position: 8% 200%;
+        background-size: 65%;
     }
     .depoimentos-texto {
-        width: 72rem;
+        width: 90vw;
         margin: 5rem auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         color: hsl(213, 84%, 22%);
     }
+    .text-article-depoimentos {
+        height: 100vh;
+        width: 41vw;
+    }
+    #content-depointe-primeiro {
+        width: 29rem;
+        margin-bottom: 3rem;
+    }
+    #content-depointe-segundo {
+        width: 24rem;
+        margin-left: 3rem;
+    }
+    .img-depointe {
+        right: 39%;
+    }
+    .segunda {
+        right: 35%;
+    }
+    .icon-quote-background {
+        background-position: 0% 97%;
+        left: 30rem;
+        height: 22vh;
+    }
+}
+@media (max-width:1180px){
+  
 }
