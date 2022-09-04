@@ -976,3 +976,16 @@ body{
     }
 
 }
+@media (max-width: 1024px){
+    
+    .text-article-depoimentos {
+        height: 180vh;
+        width: 36vw;
+    }
+    .content-depoimentos {
+        list-style-type: none;
+        margin-top: 12rem;
+        margin-left: 4rem;
+    }
+
+}
