@@ -1002,6 +1002,7 @@ body{
         list-style-type: none;
         margin-top: -23rem;
         margin-left: 4rem;
+        z-index: 5;
     }
     .background-ilustracion-maior-escola-secao {
         background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
@@ -1010,7 +1011,7 @@ body{
         background-size: 24%;
     }
     .text-article-depoimentos {
-        height: 60vh;
+        height: 70vh;
         width: 70%;
         margin: auto;
     }
@@ -1022,13 +1023,50 @@ body{
     }
     #content-depointe-segundo {
         width: 100%;
-        margin-left: 3rem;
+        margin-left: 2rem;
         position: relative;
     }
     .content-depoimentos {
         list-style-type: none;
         margin: auto;
         width: 74%;
-        margin-top: -4rem;
+        margin-top: -7rem;
+    }
+}
+
+
+@media (max-width: 624px){
+    .text-article-depoimentos {
+        height: 66vh;
+        width: 74%;
+        margin: auto;
+    }
+    .article-depointes {
+        padding: 1.5rem;
+    }
+    .article-depointes p {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    .img-depointe {
+        width: 3.5rem;
+        top: 1rem;
+    }
+    #content-depointe-primeiro {
+        width: 100%;
+        margin-bottom: 1rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    #content-depointe-segundo {
+        width: 100%;
+        margin-left: 1rem;
+        position: relative;
+    }
+    .background-ilustracion-maior-escola-secao {
+        background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
+        background-repeat: no-repeat;
+        background-position: 83% 59%;
+        background-size: 24%;
     }
 }
