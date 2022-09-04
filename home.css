@@ -850,11 +850,11 @@ body{
     color: hsl(213, 84%, 22%);
 }
 .text-article-depoimentos {
-    height: 100vh;
-    width: 25vw;
+    height: 180vh;
+    width: 31vw;
 }
 .text-article-depoimentos h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: hsl(213, 84%, 22%);
 }
 .text-article-depoimentos span{
@@ -931,72 +931,4 @@ body{
     color: #051e3d;
    font-weight: 600;
    font-family: "inter" ;
-}
-
-@media (max-width:1280px){
-    .background-ilustracion-maior-escola-secao {
-        background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
-        background-repeat: no-repeat;
-        background-position: 8% 200%;
-        background-size: 65%;
-    }
-    .depoimentos-texto {
-        width: 90vw;
-        margin: 5rem auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: hsl(213, 84%, 22%);
-    }
-    .text-article-depoimentos {
-        height: 100vh;
-        width: 41vw;
-    }
-    #content-depointe-primeiro {
-        width: 29rem;
-        margin-bottom: 3rem;
-    }
-    #content-depointe-segundo {
-        width: 24rem;
-        margin-left: 3rem;
-    }
-    .img-depointe {
-        right: 39%;
-    }
-    .segunda {
-        right: 35%;
-    }
-    .icon-quote-background {
-        background-position: 0% 97%;
-        left: 30rem;
-        height: 22vh;
-    }
-}
-@media (max-width:1180px){
-    .text-article-depoimentos h3 {
-        font-size: 2.5rem;
-    }
-    .img-depointe {
-        right: 42%;
-    }
-    .segunda {
-        right: 37%;
-    }
-}
-@media (max-width:1112px){
-    .depoimentos-texto {
-        width: 90vw;
-        margin: 5rem auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .content-depoimentos {
-        list-style-type: none;
-        margin-top: 0rem;
-    }
-    .text-article-depoimentos {
-        height: auto;
-        width: 95vw;
-    }
 }
