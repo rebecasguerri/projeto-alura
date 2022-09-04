@@ -894,10 +894,10 @@ body{
     width: 4rem;
     border: 2px solid hsl(203, 89%, 53%);
     position: absolute;
-    right: 49%;
+    right: 94%;
 }
-.segunda{
-    right: 46%;
+.segunda {
+    right: 92%;
 }
 .article-depointes {
     box-shadow: 0px 26px 34px rgb(0 0 0 / 10%);
@@ -907,8 +907,6 @@ body{
    color: hsla(213, 88%, 10%, 0.863);
    font-family: sans-serif;
    line-height: 1.4rem;
-   position: relative;
-   bottom: 2rem;
 }
 .article-depointes p{
     padding-left: 2rem;
@@ -920,15 +918,28 @@ body{
     padding-left: 2rem;
 }
 #content-depointe-primeiro {
-    width: 37rem;
+    width: 75%;
     margin-bottom: 3rem;
+    position: relative;
+    bottom: 2rem;
 }
 #content-depointe-segundo{
-    width: 29rem;
+    width:63%;
     margin-left: 3rem;
+    position: relative;
 }
 .span-bold{
     color: #051e3d;
    font-weight: 600;
    font-family: "inter" ;
+}
+@media (min-width:1280){
+    .depoimentos-texto {
+        width: 95vw;
+        margin: auto;
+    }
+    .content-depoimentos {
+        list-style-type: none;
+        margin-top: 12rem;
+    }
 }
