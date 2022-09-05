@@ -843,7 +843,7 @@ body{
 
 
 .depoimentos-texto {
-    width: 80rem;
+    width: 75rem;
     margin: 5rem auto;
     display: flex;
     flex-direction: row;
@@ -851,11 +851,11 @@ body{
     color: hsl(213, 84%, 22%);
 }
 .text-article-depoimentos {
-    height: 150vh;
+    height: 140vh;
     width: 30vw;
 }
 .text-article-depoimentos h3 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: hsl(213, 84%, 22%);
     margin-bottom: 1rem;
 }
@@ -870,7 +870,7 @@ body{
     background-image: url(imagens/ilustrações-de-background/ilustracao-03.1647533643.svg);
     background-repeat: no-repeat;
     background-position: 14% 70%;
-    background-size: 96%;
+    background-size: 90%;
 }
 
 .icon-quote-background {
@@ -885,8 +885,8 @@ body{
 }
 .content-depoimentos {
     list-style-type: none;
-    margin-top: 16rem;
-    margin-left: 11rem;
+    margin-top: 18rem;
+    margin-left: 8rem;
 }
 .img-depointe {
     display: block;
@@ -938,14 +938,17 @@ body{
         width: 95vw;
         margin: 4rem auto;
     }
-    .content-depoimentos{
+    .content-depoimentos {
         list-style-type: none;
-        margin-top: 12rem;
-        margin-left: 5rem;
+        margin-top: 16rem;
+        margin-left: 2rem;
     }
     .text-article-depoimentos {
         height: 135vh;
         width: 40vw;
+    }
+    .text-article-depoimentos h3 {
+        font-size: 2.9rem;
     }
 }
 @media (max-width: 1100px){
