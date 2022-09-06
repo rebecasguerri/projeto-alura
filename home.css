@@ -1079,10 +1079,13 @@ body{
         background-position: 95% 4%;
         background-size: 32%;
     }
+    .article-depointes p {
+        font-size: 1rem;
+    }
  }
  @media (max-width:500px){
     .background-ilustracion-maior-escola-secao {
-        background-position: 95% 27%;
+        background-position: 95% 88%;
         background-size: 30%;
     }
     .img-depointe {
@@ -1097,6 +1100,7 @@ body{
     }
     .article-depointes p {
         padding-left: 1rem;
+        font-size: 0.9rem;
     }
     .text-article-depoimentos h3 {
         font-size: 2rem;
@@ -1113,8 +1117,18 @@ body{
 
  @media (max-width:400px){
     .background-ilustracion-maior-escola-secao {
-        background-position: 97% 40%;
+        background-position: 98% 93%;
         background-size: 37%;
+    }
+    .text-article-depoimentos {
+        height: 58vh;
+    }
+    .content-depoimentos {
+        margin-top: 0rem;
+    }
+    .text-article-depoimentos p {
+        width: 70%;
+        font-size: 0.9rem;
     }
  }
 
@@ -1124,6 +1138,6 @@ body{
         background-size: 43%;
     }
     .text-article-depoimentos {
-        height: 65vh;
+        height: 70vh;
     }
  }
