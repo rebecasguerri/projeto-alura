@@ -1167,3 +1167,32 @@ body{
     height: 1px;
     background-color: hsl(188, 97%, 45%);
 }
+.contain-depoimentos-videos{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.video-box-depointe{
+    background-color: hsl(213, 85%, 13%);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.video-box-depointe img{
+    display: block;
+    border-radius: 50%;
+    width: 4rem;
+    position: absolute;
+    top: -26px;
+
+}
+.contain-depointe-article{
+    margin-top: 2rem;
+}
+.video-depointe{
+    width: 200px;
+    height: 200px;
+}
