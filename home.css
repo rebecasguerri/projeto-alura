@@ -1146,11 +1146,20 @@ body{
 
 .background-depoimentos-videos{
     background-image: radial-gradient(circle at 47% 59%,#093366,#051933 104%);
-    width: 100vw;
+    width: 100%;
 }
  .depoimentos-video{
     width: 72rem;
     margin: auto;
-    background-image: radial-gradient(circle at 47% 59%,#093366,#051933 104%);
+    color: white;
+    padding: 5rem 0;
+}
 
- }
+.article-header-videos{
+    width: 60%;
+    margin-bottom: 2rem;
+}
+.article-header-videos h3{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
