@@ -1156,10 +1156,14 @@ body{
 }
 
 .article-header-videos{
-    width: 60%;
+    width: 50%;
     margin-bottom: 2rem;
 }
 .article-header-videos h3{
     font-size: 2.3rem;
     margin-top: 1rem;
+}
+#line-depoimentos-videos{
+    height: 1px;
+    background-color: hsl(188, 97%, 45%);
 }
