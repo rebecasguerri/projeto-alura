@@ -1141,3 +1141,16 @@ body{
         height: 70vh;
     }
  }
+
+
+
+.background-depoimentos-videos{
+    background-image: radial-gradient(circle at 47% 59%,#093366,#051933 104%);
+    width: 100vw;
+}
+ .depoimentos-video{
+    width: 72rem;
+    margin: auto;
+    background-image: radial-gradient(circle at 47% 59%,#093366,#051933 104%);
+
+ }
