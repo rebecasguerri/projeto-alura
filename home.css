@@ -1174,12 +1174,19 @@ body{
     gap: 2rem;
     margin-top: 3rem;
 }
+
 .video-box-depointe{
     background-color: hsl(213, 85%, 13%);
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
     position: relative;
+}
+.margin-top-blue{
+    border-top: 1rem solid hsl(188, 97%, 45%);
+}
+.margin-top-red{
+    border-top: 1rem solid red;
 }
 .video-box-depointe img{
     display: block;
@@ -1195,4 +1202,19 @@ body{
 .video-depointe{
     width: 200px;
     height: 200px;
+}
+
+.btn-depointes-video-contain{
+    margin: 4rem auto ;
+    width: auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 1rem solid hsl(188, 97%, 45%);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.btn-depointes-video-contain:hover{
+    border: none;
+    transition-duration: 0.5s;
 }
