@@ -1194,7 +1194,19 @@ body{
     width: 4rem;
     position: absolute;
     top: -26px;
-
+}
+.header-contain-depointes span {
+    left: 16rem;
+    position: absolute;
+    top: -0.1rem;
+    padding: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.header-contain-depointes .red{
+    background-color: red;
+}
+.header-contain-depointes  .blue{
+    background-color: hsl(188, 97%, 45%);
 }
 .contain-depointe-article{
     margin-top: 2rem;
@@ -1203,6 +1215,12 @@ body{
     width: 200px;
     height: 200px;
 }
+.contain-depointe-article{
+    margin-bottom: 2rem;
+}
+.contain-depointe-article h3{
+    margin-bottom: 1rem;
+}
 
 .btn-depointes-video-contain{
     margin: 4rem auto ;
@@ -1210,11 +1228,16 @@ body{
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
+    background-color: white;
     border-bottom: 1rem solid hsl(188, 97%, 45%);
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 .btn-depointes-video-contain:hover{
-    border: none;
-    transition-duration: 0.5s;
+    border-bottom: 1rem solid white;
+    transition: all 0.5s;
+}
+.btn-depointes-video{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
