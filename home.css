@@ -1172,6 +1172,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
+    row-gap: 6rem;
     margin-top: 3rem;
 }
 
@@ -1211,9 +1212,9 @@ body{
 .contain-depointe-article{
     margin-top: 2rem;
 }
-.video-depointe{
-    width: 200px;
-    height: 200px;
+.video-depointe {
+    width: 331px;
+    height: 270px;
 }
 .contain-depointe-article{
     margin-bottom: 2rem;
@@ -1221,7 +1222,12 @@ body{
 .contain-depointe-article h3{
     margin-bottom: 1rem;
 }
-
+.span-link-ver-depoimentos{
+    padding-bottom: 2rem;
+}
+.span-link-ver-depoimentos a{
+    color: white;
+}
 .btn-depointes-video-contain{
     margin: 4rem auto ;
     width: auto;
