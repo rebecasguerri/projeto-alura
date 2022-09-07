@@ -1176,12 +1176,20 @@ body{
     margin-top: 3rem;
 }
 
-.video-box-depointe{
+.video-box-depointe-video{
     background-color: hsl(213, 85%, 13%);
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
     position: relative;
+}
+.video-box-depointe-texto{
+    background-color: hsl(213, 85%, 13%);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    height: auto;
 }
 .margin-top-blue{
     border-top: 1rem solid hsl(188, 97%, 45%);
@@ -1189,7 +1197,7 @@ body{
 .margin-top-red{
     border-top: 1rem solid red;
 }
-.video-box-depointe img{
+.depointe-img{
     display: block;
     border-radius: 50%;
     width: 4rem;
@@ -1248,28 +1256,36 @@ body{
    align-items: center;
 }
 
-@media (max-width:1280){
+@media (max-width:1280px){
     .depoimentos-video{
         width: 95vw;
-        margin:0;
+        margin:auto;
         color: white;
         padding: 5rem 0;
     }
 }
-@media (max-width:1180){
-    .contain-depoimentos-videos {
-        list-style-type: none;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 2rem;
-        row-gap: 6rem;
-        margin-top: 3rem;
+@media (max-width:1190px){
+    .video-depointe {
+        width: 300px;
+        height: 270px;
     }
-    .video-box-depointe {
-        background-color: hsl(213, 85%, 13%);
-        width: 50%;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        position: relative;
+    .header-contain-depointes span {
+        left: 15rem;
+    }
+}
+@media (max-width:1190px){
+    .contain-depoimentos-videos {
+        grid-template-columns: repeat(2,1fr); 
+        
+    }
+    .video-box-depointe-video {
+        width: 90%;
+    }
+    .video-depointe {
+        width: 26.5rem;
+        height: 270px;
+    }
+    .header-contain-depointes span {
+        left: 22rem;
     }
 }
