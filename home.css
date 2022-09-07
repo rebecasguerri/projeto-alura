@@ -1175,7 +1175,14 @@ body{
     row-gap: 6rem;
     margin-top: 3rem;
 }
-
+.contain-depoimentos-texto{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    row-gap: 6rem;
+    margin-top: 3rem;
+}
 .video-box-depointe-video{
     background-color: hsl(213, 85%, 13%);
     width: 100%;
@@ -1189,7 +1196,7 @@ body{
     padding: 1rem;
     border-radius: 0.5rem;
     position: relative;
-    height: auto;
+    height: 20rem;
 }
 .margin-top-blue{
     border-top: 1rem solid hsl(188, 97%, 45%);
@@ -1221,11 +1228,11 @@ body{
     margin-top: 2rem;
 }
 .video-depointe {
-    width: 331px;
-    height: 270px;
+    width:100%;
+    height: 100%;
 }
-.contain-depointe-article{
-    margin-bottom: 2rem;
+.contain-depointe-article {
+    margin-bottom: 5rem;
 }
 .contain-depointe-article h3{
     margin-bottom: 1rem;
@@ -1263,12 +1270,19 @@ body{
         color: white;
         padding: 5rem 0;
     }
+    .btn-depointes-video-contain {
+        margin: 4rem auto;
+        width: auto;
+        font-size: 1.3rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: white;
+        border-bottom: 1rem solid hsl(188, 97%, 45%);
+        cursor: pointer;
+    }
 }
 @media (max-width:1190px){
-    .video-depointe {
-        width: 300px;
-        height: 270px;
-    }
+ 
     .header-contain-depointes span {
         left: 15rem;
     }
@@ -1281,11 +1295,44 @@ body{
     .video-box-depointe-video {
         width: 90%;
     }
-    .video-depointe {
-        width: 26.5rem;
-        height: 270px;
-    }
+  
     .header-contain-depointes span {
         left: 22rem;
+    }
+    .contain-depoimentos-texto{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        row-gap: 5rem;
+        margin-top: 3rem;
+    }
+}
+@media (max-width:1070px){
+    .header-contain-depointes span {
+        left: 20rem;
+    }
+    .article-header-videos {
+        width: 55%;
+        margin-bottom: 2rem;
+    }
+   
+}
+
+@media (max-width:980px){
+    .header-contain-depointes .red{
+        left: 18rem;
+    }
+}
+@media (max-width:900px){
+    .header-contain-depointes .red{
+        left: 15rem;
+    }
+    .header-contain-depointes .blue {
+        left: 18rem;
+    }
+    .article-header-videos {
+        width: 60%;
+        margin-bottom: 2rem;
     }
 }
