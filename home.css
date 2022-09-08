@@ -1454,3 +1454,17 @@ body{
         left: 11rem;
     }
 }
+
+
+
+.alura-para-empresas{
+    width: 72rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empresas-img{
+    width: 4rem;
+    border-radius: 50%;
+}
