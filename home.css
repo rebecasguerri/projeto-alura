@@ -1358,6 +1358,17 @@ body{
         margin: 0 auto;
     }
     .header-contain-depointes .blue {
-        left: 16rem;
+        left: 15rem;
+    }
+    .article-header-videos h3 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .btn-depointes-video-contain {
+        margin: 4rem auto;
+        width: 67%;
+        font-size: 1.3rem;
+        padding: 0.7rem;
+    
     }
 }
