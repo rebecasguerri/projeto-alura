@@ -1336,3 +1336,28 @@ body{
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width:780px){
+    .contain-depoimentos-videos {
+        grid-template-columns: repeat(1,1fr);
+        margin: 3rem auto;
+    }
+    .video-box-depointe-video {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .video-depointe {
+        width: 100%;
+        height: 12rem;
+    }
+    .contain-depoimentos-texto {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .video-box-depointe-texto {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .header-contain-depointes .blue {
+        left: 16rem;
+    }
+}
