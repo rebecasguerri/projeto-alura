@@ -13,18 +13,6 @@ body{
     src: url("fonte/Inter-Desktop/Inter-Medium.otf") format("opentype")
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*HEADER*/
 .bckg-header{
     background-image: url(imagens/luz-roxa-luz-topo-mask.1647533643.png);
@@ -1250,11 +1238,11 @@ body{
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: white;
-    border-bottom: 1rem solid hsl(188, 97%, 45%);
+    border-bottom: 0.4rem solid hsl(188, 97%, 45%);
     cursor: pointer;
 }
 .btn-depointes-video-contain:hover{
-    border-bottom: 1rem solid white;
+    border-bottom: 0.4rem solid white;
     transition: all 0.5s;
 }
 .btn-depointes-video{
@@ -1457,14 +1445,203 @@ body{
 
 
 
+
+
+
+
 .alura-para-empresas{
     width: 72rem;
+    height: 80vh;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.article-alura-para-empresas{
+    margin-top: 2rem;
+}
+.article-alura-para-empresas p{
+  width: 80%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: hsl(214deg 82% 11% / 69%);
+}
+#alura-para-empresas-title{
+    font-size: 2rem;
+   margin-top: 1rem;
+   color: hsl(213, 84%, 22%);
+}
+#span-alura-para-empresas{
+    font-family: 'Courier New', Courier, monospace;
+    color: #167bf7;
+}
+.btn-recursos-green{
+  padding:1.4rem;  
+  border-radius: 2rem;
+  background-color: #a3ffbf;
+  color: #051933;
+  width:auto;
+  height: auto;
+  border: none;
+  box-shadow: 0 0.357em 0.714em 0 rgb(38 94 142 / 20%);
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.right{
+    display: none;
+}
+
+.depoimento-empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
 .empresas-img{
+    display: block;
+    border-radius: 50%;
+    width: 4rem;
+    border: 2px solid hsl(203, 89%, 53%);
     width: 4rem;
     border-radius: 50%;
+    position: absolute;
+    left: -2rem;
+    top: 7%;
+}
+#esquerda-alura-empresas{
+    width: 70%;
+}
+
+#direita-alura-empresas{
+    width: 70%;
+}
+.depoimento-getninjas {
+    position: relative;
+    list-style-type: none;
+    height: 10rem;
+}
+.getninjas {
+    margin-bottom: 2rem;
+    width: 38rem;
+}
+
+.depoimento-grendene{
+    position: relative;
+    list-style-type: none;
+    bottom: -2rem;
+    height: 10rem;
+}
+.grendene {
+    width: 32rem;
+    left: 4rem;
+    position: absolute;
+}
+.grendene-img {
+    left: 2rem;
+    top: 7%;
+}
+
+.article-depoimento{
+    box-shadow: 0px 26px 34px rgb(0 0 0 / 10%);
+    border-radius: 0.5rem;
+    border: 1px solid #1961bc30;
+    padding: 2rem 2rem 2rem 3rem;
+    color: hsla(213, 88%, 10%, 0.863);
+    font-family: sans-serif;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+.nome-do-funcionario-depointe{
+    display: inline-block;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.nome-do-funcionario-depointe span{
+    font-weight: bold;
+}
+
+@media (max-width:1180px){
+    .alura-para-empresas{
+        width: 95vw;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .getninjas {
+        margin-bottom: 2rem;
+        width: 33rem;
+    }
+    .grendene {
+        width: 26rem;
+        left: 4rem;
+        position: absolute;
+    }
+    .article-depoimento {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.empresas-parceiras{
+    background: #093366;
+}
+.lista-logo-empresas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 3rem 0;
+}
+.container-empresas-parceiras{
+    width: 72rem;
+    margin: auto;
+    padding: 3rem 0;
+}
+.title-empresas-parceiras{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.link-confira-ofertas-empresas{
+    text-align: center;
+}
+.link-confira-ofertas-empresas a{
+    color: white;
+}
+@media (max-width:1180px){
+
 }
