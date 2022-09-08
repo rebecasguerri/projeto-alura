@@ -1372,3 +1372,19 @@ body{
     
     }
 }
+@media (max-width:680px){
+    .header-contain-depointes .blue {
+        left: 13rem;
+    }
+    .span-link-ver-depoimentos {
+        padding-bottom: 2rem;
+        font-size: 0.8rem;
+    }
+    .header-contain-depointes .red {
+        left: 13rem;
+    }
+    .article-header-videos {
+        width: 65%;
+        margin-bottom: 2rem;
+    }
+}
