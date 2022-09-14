@@ -1783,9 +1783,15 @@ body{
 }
 @media (max-width:980px){
     .img-logo-empresas{
-        width: 4rem;
+        width: 5rem;
     }
-    .lista-logo-empresas li{
-        width: 4rem;
+  
+    .title-empresas-parceiras {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:620px){
+    .title-empresas-parceiras {
+        font-size: 1.5rem;
     }
 }
