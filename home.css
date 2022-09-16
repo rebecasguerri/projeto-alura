@@ -1853,7 +1853,7 @@ body{
     top: 0;
     width: 11rem;
     height: 90%;
-    background: linear-gradient(90deg,rgb(9 24 48 / 88%) 0%,rgb(9 24 48 / 76%) 33.13%,rgb(9 24 48 / 0%) 87.29%);
+    background: linear-gradient(90deg,rgb(10 27 54 / 42%) 0%,rgb(9 24 48 / 77%) 33.13%,rgb(9 24 48 / 0%) 87.29%);
 }
 
 .btn-alura-cases{
@@ -1862,6 +1862,7 @@ body{
     padding: 1rem;
     color: white;
     width: 20rem;
+    text-decoration: none;
     font-weight:bolder;
     font-size: 0.9rem;
     position: relative;
@@ -1900,16 +1901,16 @@ body{
     border-radius: 0.5rem;
     list-style-type: none;   
 }
-.apr-profissional-article::before {
+/*.apr-profissional-article::before {
     content: "";
     position: absolute;
     top: 0;
     z-index: 1;
     left: 0;
-    width: 250%;
+    width: 210%;
     height: 95.6%;
     background: linear-gradient(183deg,rgba(0, 0, 0, 0.024) 51.68%,rgba(2, 9, 16, 0.123) 84.6%);
-}
+}*/
 
 .arrow {
     position: absolute;
@@ -1982,4 +1983,168 @@ body{
 .profissao-alura-cases-article{
     font-size: 1rem;
     margin: 0.6rem 0  0.9rem ;
+}
+.bottom{
+    display: none;
+}
+@media (max-width:1380px){
+    .list-scroll {
+        width: 63vw;
+    }
+    .container-alura-cases {
+        width: 99%;
+    }
+}
+@media (max-width:1270px){
+    .list-scroll {
+        width: 62vw;
+    }
+    .container-alura-cases {
+        width: 98%;
+    }
+    .alura-cases::before {
+        background: linear-gradient(270deg,rgb(9 24 50) 0%,rgb(9 24 50 / 80%) 33.13%,rgba(9,24,50,0) 87.29%);
+    }
+}
+@media (max-width:1200px){
+    .list-scroll {
+        width: 62vw;
+    }
+    .container-alura-cases {
+        width: 97%;
+    }
+}
+@media (max-width:1112px){
+    .container-alura-cases {
+        padding-bottom: 3rem;
+        height: auto;
+    }
+    .list-professional-card {
+        width: 262px;
+    }
+    .article-alura-cases h1 {
+        font-size: 2rem;
+    }
+    .article-alura-cases p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .arrow {
+        bottom: 8rem;
+    }
+    .article-alura-cases::before {
+        height: 100%;
+    }
+}
+@media (max-width:1054px){
+    .list-scroll {
+        width: 62vw;
+    }
+    .container-alura-cases {
+        width: 96%;
+    }
+}
+@media (max-width:989px){
+    .container-alura-cases {
+        width: 96%;
+    }
+    .btn-alura-cases {
+        width: 15rem;
+    }
+    .article-alura-cases h1 {
+        font-size: 1.8rem;
+    }
+    .article-alura-cases p {
+        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:989px){
+    .article-alura-cases::before {
+        width: 7rem;
+    }
+    .list-professional-card {
+        width: 230px;
+    }
+
+    .artcile-position-bottom {
+        width: 12rem;
+    }
+}
+@media (max-width:880px){
+    .container-alura-cases {
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+    }
+    .article-alura-cases::before {
+       display: none;
+    }
+    .list-scroll {
+        width: 96vw;
+    }
+    .article-alura-cases h1 {
+        font-size: 2.2rem;
+        margin: 2rem 0 1rem 0rem;
+    }
+    .article-alura-cases p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .top{
+        display: none;
+    }
+    .bottom{
+        margin-top: 2rem;
+        display: block;
+        margin-left: 1rem;
+        text-decoration: none;
+    }
+
+
+}
+@media (max-width:790px){
+    .list-scroll {
+        width: 94vw;
+    }
+    #arrow-rigth {
+        right: 0rem;
+        z-index: 2;
+    }
+    .article-alura-cases h1 {
+        font-size: 2rem;
+    }
+    .article-alura-cases p {
+        font-size: 1rem;
+    }
+    .list-scroll {
+        width: 93vw;
+    }
+}
+@media (max-width:450px){
+    .list-scroll {
+        width: 92vw;
+    }
+    .article-alura-cases h1 {
+        font-size: 1.8rem;
+    }
+    .article-alura-cases p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+}
+@media (max-width:416px){ 
+    .list-professional-card {
+     width: 200px;
+    }
+    .artcile-position-bottom {
+        position: absolute;
+        bottom: 1rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        width: 9rem;
+        z-index: 2;
+    }
 }
