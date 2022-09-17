@@ -2336,3 +2336,37 @@ body{
         width: 20rem;
     }
 }
+
+.icons-send-course{
+    background-color: hsl(213, 84%, 22%);
+    color: rgba(255, 255, 255, 0.635);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.size-fixo-divs-icons{
+    width: 10rem;
+    text-align: center;
+}
+.size-fixo-divs-icons img{
+    margin-bottom: 0.4rem;
+}
+@media (max-width:860px){
+    .icons-send-course{
+        gap: 7rem;
+    }
+}
+@media (max-width:780px){
+    .icons-send-course{
+        gap: 5rem;
+    }
+}
+@media (max-width:680px){
+    .icons-send-course{
+        gap: 4rem;
+        flex-direction: column;
+    }
+}
