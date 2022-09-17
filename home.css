@@ -2370,3 +2370,148 @@ body{
         flex-direction: column;
     }
 }
+
+footer{
+    background: #051d3b;
+}
+.footer-main{
+    color: white;
+    width: 72rem;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.footer-header{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-bottom: 3rem ;
+    padding-top: 6rem;
+}
+.list-redes-sociais-apps{
+    list-style-type: none;
+    display: flex;
+    gap:1rem;
+}
+.logo-declaracoes p{
+    margin-top: 0.5rem;
+    width: 15rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.833);
+}
+.footer-links{
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.list-links{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+.list-links li a{
+    cursor: pointer;
+    color: #ffffffb0;
+    text-decoration: none;
+}
+.list-links li a:hover{
+    text-decoration: underline;
+}
+#email-input{
+    width: 15rem;
+    height: 3rem;
+    background: #051d3b;
+    border: 2px solid white;
+    margin-top: 5px;
+    border-radius: 0.3rem 0 0 0.3rem;
+    border-right: none;
+    margin-right: -0.3rem;
+}
+.btn-send{
+    width: auto;
+    height: 3rem;
+    background: #051d3b;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0 0.3rem  0.3rem 0;
+    border-left: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.parceiros-footer h3{
+    margin-bottom: 1rem;
+}
+.divs-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.divs-flex  div{
+    width: 16rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.778);
+}
+.divs-flex img{
+    margin-bottom: 1rem;
+}
+.scale-div img{
+    width: 10rem;
+}
+
+
+
+
+
+
+.cursos{
+    background: #031326;
+    color: white;
+}
+.container-cursos{
+    width: 72rem;
+    margin: auto;
+    padding:3rem 0;
+}
+
+.lista-divs{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    line-height: 2.2rem;
+}
+.container-cursos h1{
+    margin-bottom: 1rem;
+}
+.lista-divs ul{
+    display: flex;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.72);
+    gap: 0.5rem;
+    font-size: 00.9rem;
+}
+
+
+.grupo-alura{
+    background-color: white;
+}
+.container-grupo-alura{
+    width: 72rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.container-grupo-alura h3{
+    width: 15rem;
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.container-list li{
+    list-style-type: none;
+}
