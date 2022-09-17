@@ -2246,3 +2246,93 @@ body{
      
     }
 }
+
+
+
+
+.plano-individua-alunos{
+    width: 72rem;
+    margin: auto;
+    padding: 3rem 0;
+}
+.plano-individua-alunos h1{
+    text-align: center;
+}
+.display-section-planos{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+.planos{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.183);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 2rem;
+    height: 35rem;
+    width: 20rem;
+  
+}
+.planos-simple{
+    background: url("imagens/painel-planos/icon-plan-premium.1647533644.svg");
+    background-repeat: no-repeat;
+}
+.planos-pro{
+    border-top: 15px solid blue;
+    height: 37rem;
+    background: url("imagens/painel-planos/icon-plan-premium-plus.1647533644.svg");
+    background-repeat: no-repeat;
+}
+.compra-article{
+    line-height: 1.8rem;
+}
+.valor-avista{
+    color: #0d234789;
+}
+.parcelamento{
+    color: rgba(0, 0, 0, 0.553);
+}
+.preço{
+    color: #0D2347;
+    font-size: 1.5rem;
+}
+
+.lista-beneficios{
+    list-style-type: none;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.553);
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.btn-matricule-planos-area{
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #a3ffbf;
+    color: #051e3d;
+    margin-top: 2rem;
+}
+#link-bottom-planos{
+    text-align: center;
+}
+@media (max-width:1152px){
+    .plano-individua-alunos {
+        width: 95vw;
+        margin: auto;
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width:680px){
+    .display-section-planos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        margin: 4rem auto;
+        width: 20rem;
+    }
+}
