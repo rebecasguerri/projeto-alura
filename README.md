@@ -16,4 +16,4 @@
   ---|---|---|
   47.4%|51.3%|1.3%
   
-   ## [Loopstudios Landingpage]( https://rebecasguerri.github.io/projeto-alura/)
+   ## [Alura Page]( https://rebecasguerri.github.io/projeto-alura/)
