@@ -16,7 +16,7 @@
   ---|---|---|
   47.4%|51.3%|1.3%
   
-   ## [Alura Page]( https://rebecasguerri.github.io/projeto-alura/)
+   ## [Alura Page](https://rebecasguerri.github.io/projeto-alura/)
    
   ![ezgif com-gif-maker (1)](https://raw.githubusercontent.com/rebecasguerri/projeto-alura/main/ezgif.com-gif-maker%20(2).gif)
   
