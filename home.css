@@ -116,7 +116,7 @@ body{
     color: #ffffffa3;
 }
 .header-backgound{
-    padding: 2rem 0;
+    padding: 0rem 0;
     background-image: url(imagens/ilustrações-de-background/ilustra-alura-escafandro.1647533643.svg);
     background-repeat: no-repeat;
     background-position: top right;
@@ -202,15 +202,15 @@ body{
     width: 100%;
     height: 11rem;
     position: absolute;
-    bottom: -8%;
+    bottom: -12%;
     background: #fff;
     -webkit-transform: skewY(-6deg);
     transform: skewY(-2deg);
 }
-@media (max-width: 1380px){
+@media (max-width: 1480px){
     .linha-transversal::after {
-        bottom: -30%;
-    }
+        bottom: -16%;  
+     }   
 }
 
 @media (min-width: 1280px){
@@ -248,6 +248,9 @@ body{
     .txt-header h1 {
         font-size: 3rem;
     }
+    .linha-transversal::after {
+        bottom: -20%;  
+     } 
   
     .video-section {
         gap: 2rem;
@@ -299,11 +302,15 @@ body{
         margin-right: 0.5rem;
     }
     .linha-transversal::after {
-        bottom: -53%;
+        display: none;
     }
+    .header-backgound {
+        padding: 10rem 0;
+     }
   
 
 }
+
 
 
 @media (max-width: 620px){
@@ -359,11 +366,6 @@ body{
         padding: 1rem 2rem;
         font-size: 0.7rem;
     }
-    .linha-transversal::after {
-        bottom: -30%;
-    }
-   
-   
 
  }
 
